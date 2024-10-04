@@ -1,0 +1,247 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family:  'Open Sans','Microsoft JhengHei', 'Microsoft YaHei', 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+  background: url(../images/bg_faq.png) no-repeat center bottom fixed #ededed;
+  background-size: 100% auto;
+}
+.SectionFaq {
+	width: 100%;
+  
+}
+.SectionFaq ul , .SectionFaq ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+/********************************************************
+Dell FAQ
+********************************************************/
+.faq_kv {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
+.faq_kv img {
+  float:left;
+  width: 100%;
+}
+.FAQ {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+  box-sizing:border-box;
+  padding:0 100px 50px 100px;
+  font-size: 18px;
+  color:#363636;
+  background: rgba(235,235,235,.8);
+  line-height: 26px;
+  overflow: hidden;
+}
+.FAQ ul {
+  display: block;
+  line-height: 35px;
+  padding: 50px 0px 0 0;
+  box-sizing:border-box;
+  width: 100%;
+  float:left;
+  box-sizing:border-box;
+}
+.FAQ ul li {
+  margin:0 0 20px 0;
+  font-size:15px;
+  float: left;
+  width: 100%;
+  box-sizing:border-box;
+}
+.FAQ ul li .notice {
+  font-size: 12px;
+  color:#ff0;
+}
+.FAQ ul li input[type="text"] {
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    border:1px solid #9e9e9e;
+    padding:0 5px;
+    font-size: 15px;
+    box-sizing:border-box;
+    font-family: 'ReplicaRegula' , 'Microsoft JhengHei', Arial, '新細明體', sans-serif;
+}
+.FAQ ul li textarea {
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    border:1px solid #9e9e9e;
+    padding:0 5px;
+    font-size: 15px;
+    font-family: 'ReplicaRegula' , 'Microsoft JhengHei', Arial, '新細明體', sans-serif;
+    height: 200px;
+}
+.FAQ ul li select {
+  border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    border:1px solid #9e9e9e;
+    padding:0 5px;
+    font-size: 15px;
+    font-family: 'ReplicaRegula' , 'Microsoft JhengHei', Arial, '新細明體', sans-serif;
+}
+.FAQ ul li input[type="radio"] , .FAQ ul li input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+	float:left;
+	margin-left:5px;
+}
+.FAQ ul li table {
+  font-size:15px;
+  line-height: 20px;
+}
+.FAQ ul li table td {
+  vertical-align: top;
+  padding:5px;
+}
+.FAQ ul li.question {
+  color:#000;
+}
+.FAQ ul li.Answer {
+  border-bottom:1px dashed #eee;
+  padding:0 0 30px;
+}
+.FAQ ul li p {
+  font-size:15px;
+  line-height: 20px
+}
+.Buttons {
+  text-align: center;
+  margin: 50px 0;
+  width: 100%;
+  float:left;
+}
+.Buttons input {
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  margin: 0 10px;
+  font-family: 'ReplicaRegula' , 'Microsoft JhengHei', Arial, '新細明體', sans-serif;
+  cursor:pointer;
+  border:none;
+  font-size: 18px;
+}
+.Buttons input.clearform {
+  border: 2px solid #7b7b7b;
+  background: transparent;
+  color:#7b7b7b;
+}
+/*.Buttons input.sendform {
+  background: transparent;
+  color:#361c0b;
+  border:2px solid #361c0b;
+}*/
+.Buttons input.sendform {
+  background: #361c0b;
+  color:#fff;
+  border:2px solid #734d35;
+}
+.Faq_RuleText {
+  font-size: 1rem;
+  width: 100%;
+  float:left;
+  box-sizing:border-box;
+  padding: 0 0 50px 0;
+  border-bottom:1px dashed #fff;
+}
+.Faq_RuleText img {
+  width: 100%;
+}
+.Faq_RuleText h3 {
+  margin: 20px 0;
+  width: 100%;
+  float:left;
+}
+.Faq_RuleText ol {
+  margin: 0px 0 20px 25px;
+  padding: 0;
+  width: 100%;
+  float:left;
+}
+.Faq_RuleText ol li {
+  text-align: justify;
+}
+.RuleDetail {
+  width: 100%;
+  float:left;
+  box-sizing:border-box;
+  padding: 0 0 0px 25px;
+}
+/* Lightbox panel with some content */
+
+.LightBoxInside {
+  max-width: 1000px;
+  margin:0 auto;
+  box-sizing:border-box;
+  padding: 30px 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size: 18px;
+  color:#505050;
+  max-height: 80vh;
+  height: auto;
+  /*overflow-y:scroll; */
+  text-shadow:none;
+}
+.LightBoxInside p {
+  display: block;
+  margin: 15px 0;
+  font-size: 18px;
+  text-align: center;
+}
+.LightBoxInside .Score {
+  display: block;
+  text-align: center;
+}
+.LightBoxInside .Score .ScoreTxt {
+  font-size: 100px;
+  color:#54ab00;
+}
+.LightBoxInside .Score .ScoreTxtLow {
+   font-size: 100px;
+  color:#ba0d00;
+}
+.font-s {
+  font-size:12px;
+  color:#444;
+}
+
+
+@media (max-width:1920px) {
+	.SectionFaq {
+	}
+}
+@media (max-width:1000px) {
+	.FAQ {
+		width: 100%;
+	}
+  .faq_kv {
+    width: 100%;
+  }
+}
+@media (max-width:800px) {
+	.FAQ {
+		padding:50px;
+	}
+	.FAQ ul {
+		/*padding:50px;*/
+	}
+}
+@media (max-width:640px) {
+	.FAQ ul {
+		/*padding:50px;*/
+	}
+}
